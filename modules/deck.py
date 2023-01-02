@@ -73,7 +73,7 @@ def deal_card(deal = 0):
         return deck.get(deal)
     if len(discard) == 52:
         shuffle()
-    deal_card()
+    return deal_card()
 
 def shuffle():
     discard.clear()
